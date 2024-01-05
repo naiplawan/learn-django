@@ -21,7 +21,7 @@ class IndexView(generic.ListView):
     ).order_by('-pub_date')[:5]
 
 class DetailView(generic.DetailView):
-    ...
+    template_name = 'polls/detail.html'
     def get_queryset(self):
         """
         Excludes any questions that aren't published yet.
