@@ -1,0 +1,65 @@
+legend h1 {
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Green background on hover */
+}
+
+input[type="radio"]{
+    color: #4CAF50;
+}
+
+input[type="radio"]:checked {
+    background-color: #4CAF50;
+}
+
+label{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url("images/pattern.svg") !important ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.vote-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
