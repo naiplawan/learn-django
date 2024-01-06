@@ -1,0 +1,66 @@
+h1 {
+    font-family: "monospace";
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+body {
+    background-image: url("images/pattern.svg") !important ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: "monospace";
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    border-color: black;
+    border-radius: 1rem;
+    padding: 15px 32px;
+    margin-top: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition-duration: 0.4s; 
+    background-color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+a:hover{
+    color: white;
+}
+
