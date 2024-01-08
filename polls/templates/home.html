@@ -1,0 +1,13 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+
+{% block content %}
+    <h1>Home</h1>
+    <p>
+        Welcome to the home page!
+    </p>
+    <p>
+        <a href="polls/">Polls</a>
+    </p>
+{% endblock %}

@@ -1,0 +1,30 @@
+body {
+    background-image: url("images/pattern.svg") !important ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    font-family: "monospace";
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    padding: 2rem;  
+}
+
+p a {
+    font-size: 2rem;
+    font-family: "monospace";
+    color: black;
+}
+
+p a:hover {
+    color: green;
+    transition: ease-in-out 0.5s;
+}
